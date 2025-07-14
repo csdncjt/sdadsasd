@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1721544207891024}
+  m_IsPrefabParent: 1
+--- !u!1 &1721544207891024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4697655011189034}
+  - component: {fileID: 114052459199459742}
+  m_Layer: 0
+  m_Name: KV
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4697655011189034
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1721544207891024}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114052459199459742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1721544207891024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 502d8cafd6a5a0447ab1db9a24cdcb10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+  - key: GlobalProto
+    gameObject: {fileID: 4900000, guid: 78f3a209a7b81ec46a196b52eea7e541, type: 3}
+  - key: GlobalProto_AppStore
+    gameObject: {fileID: 4900000, guid: 4c964719ae413461eba3ec296c077bae, type: 3}
+  - key: GlobalProto_Offline
+    gameObject: {fileID: 4900000, guid: 0b0545e1a0e494e73a1a62fe9f9af525, type: 3}
+  - key: GlobalProto_Test
+    gameObject: {fileID: 4900000, guid: dfda58b39ef2a47a9846e920b39cbd9e, type: 3}
+  - key: UICarrierDataNetwork
+    gameObject: {fileID: 1853738106543752, guid: bae2a7103516a5843ab3c4b79fed1a92,
+      type: 2}
+  - key: UILoading
+    gameObject: {fileID: 1386170326414932, guid: 0deea0b3b021a714d8c54816d4ee5fbe,
+      type: 2}
+  - key: UIToast
+    gameObject: {fileID: 1893449216312740, guid: bd08d514e9775e34ab549768820cdf59,
+      type: 2}
+  - key: UIDialog
+    gameObject: {fileID: 1848514185337392, guid: 4563bd44cb872ce468fcbe7e7540d83d,
+      type: 2}
+  - key: UIDefault
+    gameObject: {fileID: 1741265510082816, guid: cf6c49449318b69488da8fbfbc29995c,
+      type: 2}

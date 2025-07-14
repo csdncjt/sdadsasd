@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1959985135461608}
+  m_IsPrefabParent: 1
+--- !u!1 &1959985135461608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4273461980807942}
+  - component: {fileID: 114232992877823954}
+  m_Layer: 0
+  m_Name: OrdinaryCard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4273461980807942
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1959985135461608}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114232992877823954
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1959985135461608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 502d8cafd6a5a0447ab1db9a24cdcb10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+  - key: poker_01
+    gameObject: {fileID: 21300000, guid: f39f43ef17f755746a1588dd6561f93d, type: 3}
+  - key: poker_02
+    gameObject: {fileID: 21300000, guid: 611d07e3766d49046a0b206c6207b9f3, type: 3}
+  - key: poker_03
+    gameObject: {fileID: 21300000, guid: b1ab66f280d3e8242a31f2f0ec56b11e, type: 3}
+  - key: poker_04
+    gameObject: {fileID: 21300000, guid: 9a303fe39fa11e5499774366e13274b7, type: 3}
+  - key: poker_05
+    gameObject: {fileID: 21300000, guid: 9d70967e0d992204bac30e5e0ecfec33, type: 3}
+  - key: poker_06
+    gameObject: {fileID: 21300000, guid: 69faa5101a56d094c8cbb14a244adfdb, type: 3}
+  - key: poker_07
+    gameObject: {fileID: 21300000, guid: 84bcaac7cbfd4094692cdc041f909925, type: 3}
+  - key: poker_08
+    gameObject: {fileID: 21300000, guid: 97a47cc65279dae4781e80ce77ee7a70, type: 3}
+  - key: poker_09
+    gameObject: {fileID: 21300000, guid: e47305d46a6dde14892fb2e72b9d9857, type: 3}
+  - key: poker_10
+    gameObject: {fileID: 21300000, guid: bf6481da00bda5c4d8a4bfb80a05272c, type: 3}
+  - key: poker_11
+    gameObject: {fileID: 21300000, guid: ab6c6a042a065ff409ea7c85c5eb91b4, type: 3}
+  - key: poker_12
+    gameObject: {fileID: 21300000, guid: 50896cda0c3d8d445a269eba7f399d4f, type: 3}
+  - key: poker_13
+    gameObject: {fileID: 21300000, guid: 143dfbdc68c16164e85fcf897092b560, type: 3}
+  - key: poker_14
+    gameObject: {fileID: 21300000, guid: 8c53a85d2d3fe84408c8d462801ebefd, type: 3}
+  - key: poker_15
+    gameObject: {fileID: 21300000, guid: 8f7c78798feabb445b172da3bb2e87c8, type: 3}
+  - key: poker_16
+    gameObject: {fileID: 21300000, guid: fc747e53285050348b448b9727201181, type: 3}
+  - key: poker_17
+    gameObject: {fileID: 21300000, guid: af0b7a9d75c32f441bf307cb39e46015, type: 3}
+  - key: poker_18
+    gameObject: {fileID: 21300000, guid: d9db70f23af415d46937e9e4b3dd91ea, type: 3}
+  - key: poker_19
+    gameObject: {fileID: 21300000, guid: 77f137c42e69aeb46a1359aff0172f94, type: 3}
+  - key: poker_20
+    gameObject: {fileID: 21300000, guid: 1aa3b8d440b90ac42bd2617cfcb51023, type: 3}
+  - key: poker_21
+    gameObject: {fileID: 21300000, guid: 0fb0d45979137534fad71fa412570edd, type: 3}
+  - key: poker_22
+    gameObject: {fileID: 21300000, guid: bb589ddff7cb75d468371547d3c9e80a, type: 3}
+  - key: poker_23
+    gameObject: {fileID: 21300000, guid: 7115aa58c86bb5f4d9ab408e2eee7fde, type: 3}
+  - key: poker_24
+    gameObject: {fileID: 21300000, guid: 3f98346c5aec44a42b5e543182039689, type: 3}
+  - key: poker_25
+    gameObject: {fileID: 21300000, guid: cbf57bc041477f34a9804f095bcc9934, type: 3}
+  - key: poker_26
+    gameObject: {fileID: 21300000, guid: 63e9da8d2ca4c234eb8a2d75e92d999e, type: 3}
+  - key: poker_27
+    gameObject: {fileID: 21300000, guid: 334bb4f707bce2648923bd94ac1c7d2c, type: 3}
+  - key: poker_28
+    gameObject: {fileID: 21300000, guid: d33cc15dbacbca745951bc2f45e65555, type: 3}
+  - key: poker_29
+    gameObject: {fileID: 21300000, guid: 36aac1a02a9d3b1428f053fedb3ea525, type: 3}
+  - key: poker_30
+    gameObject: {fileID: 21300000, guid: 2751aa86aea746a49a54f0e73c49eb60, type: 3}
+  - key: poker_31
+    gameObject: {fileID: 21300000, guid: 001b38bf172713e4784f4c4b7b12fc43, type: 3}
+  - key: poker_32
+    gameObject: {fileID: 21300000, guid: 5e269d87c7abfee48a00ec381cc69e09, type: 3}
+  - key: poker_33
+    gameObject: {fileID: 21300000, guid: 15c1d09fdefc7ed428322b5be6162bca, type: 3}
+  - key: poker_34
+    gameObject: {fileID: 21300000, guid: 54709032dfaa3124fbf69986bcec2883, type: 3}
+  - key: poker_35
+    gameObject: {fileID: 21300000, guid: c1462491ad202e947b6d82d28c252480, type: 3}
+  - key: poker_36
+    gameObject: {fileID: 21300000, guid: e74723ceb40d0fb4899e1765df6c3857, type: 3}
+  - key: poker_37
+    gameObject: {fileID: 21300000, guid: 9fbc85898449bb546a36a7e060262aca, type: 3}
+  - key: poker_38
+    gameObject: {fileID: 21300000, guid: 8bed60a4f3df1184ea0923479a7b7a59, type: 3}
+  - key: poker_39
+    gameObject: {fileID: 21300000, guid: 0db5d0ee58cd12b4db50a5c963ba67e3, type: 3}
+  - key: poker_40
+    gameObject: {fileID: 21300000, guid: dd302ae48e0d1c340bc368299b4dac81, type: 3}
+  - key: poker_41
+    gameObject: {fileID: 21300000, guid: 036422709f9a62249ad7ea913f6717c4, type: 3}
+  - key: poker_42
+    gameObject: {fileID: 21300000, guid: 6b95908632ad8c84bae71fecf9b7a20e, type: 3}
+  - key: poker_43
+    gameObject: {fileID: 21300000, guid: 4f60564df6ba98549aa1159cb9cd7916, type: 3}
+  - key: poker_44
+    gameObject: {fileID: 21300000, guid: 919d82e81c191e64094db50980817181, type: 3}
+  - key: poker_45
+    gameObject: {fileID: 21300000, guid: b33bab37ce4270c4995f4a0a191938b4, type: 3}
+  - key: poker_46
+    gameObject: {fileID: 21300000, guid: 9c27d96d66096e64aa87a4518e76cf00, type: 3}
+  - key: poker_47
+    gameObject: {fileID: 21300000, guid: 32bc5e8ed3cd0d146b8d01b73aca4e6f, type: 3}
+  - key: poker_48
+    gameObject: {fileID: 21300000, guid: 10a0727a1d662454991fd41b7e3d3443, type: 3}
+  - key: poker_49
+    gameObject: {fileID: 21300000, guid: 9618701f9ffb0a84685164b33f0543c6, type: 3}
+  - key: poker_50
+    gameObject: {fileID: 21300000, guid: a8dd768afaaf88a49b03f3eed9418943, type: 3}
+  - key: poker_51
+    gameObject: {fileID: 21300000, guid: 458c314b4a4efed4ebdbbd2dc19ff38e, type: 3}
+  - key: poker_52
+    gameObject: {fileID: 21300000, guid: c18c0c1508361464a80baa45f3d1a487, type: 3}
+  - key: poker_53
+    gameObject: {fileID: 21300000, guid: 6500abb182a155c4ba32f689577f5a7b, type: 3}
+  - key: poker_54
+    gameObject: {fileID: 21300000, guid: 26a9630696515304ab422c3bbaadff06, type: 3}
+  - key: poker_88
+    gameObject: {fileID: 21300000, guid: 6f1a50f0fe6533d46b2e5c2b45743cae, type: 3}

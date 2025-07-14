@@ -1,0 +1,19 @@
+{
+    "group": "JPush",
+    "libs": ["libz.tbd","libresolv.tbd"],
+    "frameworks": [
+	 				"CoreFoundation.framework",
+    				"CoreTelephony.framework",
+                    "UserNotifications.framework",
+	"StoreKit.framework"
+    			  ],
+    "headerpaths": [],
+    "files":   [],
+    "folders": [],    
+    "excludes": ["^.*.meta$", "^.*.mdown$", "^.*.pdf$"],
+    "compiler_flags": [],
+    "linker_flags": [
+    					"-ObjC"
+    				]
+
+}

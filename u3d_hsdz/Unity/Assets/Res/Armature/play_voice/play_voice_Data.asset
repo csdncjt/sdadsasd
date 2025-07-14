@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a64e5b0e436d4bed9780211ae245f7b, type: 3}
+  m_Name: play_voice_Data
+  m_EditorClassIdentifier: 
+  dataName: play_voice
+  dragonBonesJSON: {fileID: 4900000, guid: c73c1fb8458164ef8826e25de7585f2e, type: 3}
+  textureAtlas:
+  - textureAtlasJSON: {fileID: 4900000, guid: 40950d297c8534402b1d92352ca244a5, type: 3}
+    texture: {fileID: 2800000, guid: 1be9e92e6cbf1416bb59c8e7d872104d, type: 3}
+    material: {fileID: 2100000, guid: 27216dd2f64b85e40947dfe0a4652d5a, type: 2}
+    uiMaterial: {fileID: 2100000, guid: 1a8a1486c46594921be03176a0faf303, type: 2}

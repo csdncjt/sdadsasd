@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1113011311941366}
+  m_IsPrefabParent: 1
+--- !u!1 &1113011311941366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4443056671303724}
+  - component: {fileID: 114359623149788440}
+  m_Layer: 0
+  m_Name: Sound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4443056671303724
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1113011311941366}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114359623149788440
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1113011311941366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 502d8cafd6a5a0447ab1db9a24cdcb10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+  - key: bgm_game
+    gameObject: {fileID: 8300000, guid: 3fc141c54428db84fade1df42570532b, type: 3}
+  - key: bgm_lobby
+    gameObject: {fileID: 8300000, guid: ceefb090dac59ab468f69f089710d666, type: 3}
+  - key: sfx_bet
+    gameObject: {fileID: 8300000, guid: 865842731d485524c9e2e5449f764724, type: 3}
+  - key: sfx_click
+    gameObject: {fileID: 8300000, guid: 11fd03c0ace122541b1f7469188b3ba3, type: 3}
+  - key: sfx_desk_bet_first
+    gameObject: {fileID: 8300000, guid: ea1465f60c2da814db60526188ece0a0, type: 3}
+  - key: sfx_desk_bet_second
+    gameObject: {fileID: 8300000, guid: d74581e13abf515428a38cfb1dfe161a, type: 3}
+  - key: sfx_desk_chat
+    gameObject: {fileID: 8300000, guid: a79287db992424d438955dec81e35c4d, type: 3}
+  - key: sfx_desk_move_chips
+    gameObject: {fileID: 8300000, guid: e6d1da8c238668f48a62eb47fd97d2bc, type: 3}
+  - key: sfx_desk_new_card
+    gameObject: {fileID: 8300000, guid: e6c74e38c1d7ff34992c5749046c85e2, type: 3}
+  - key: sfx_desk_player_check
+    gameObject: {fileID: 8300000, guid: ec1c4773db7a5d74c8c5a503b21eb337, type: 3}
+  - key: sfx_desk_player_fold
+    gameObject: {fileID: 8300000, guid: 55410c261a57f85479af8ac8753d6352, type: 3}
+  - key: sfx_desk_player_turn
+    gameObject: {fileID: 8300000, guid: 16a0fa12d6b241145b2a73f17196ef68, type: 3}
+  - key: sfx_desk_post_raise
+    gameObject: {fileID: 8300000, guid: 0e401197efe77ea45b2bc5a550652f10, type: 3}
+  - key: sfx_desk_shift
+    gameObject: {fileID: 8300000, guid: 104a3f4a19b864a4ca8ef72913b1832b, type: 3}
+  - key: sfx_game_wheel_tick
+    gameObject: {fileID: 8300000, guid: 8188f0e6d7a965448b0ca8f693d8b4eb, type: 3}
+  - key: sfx_poker_event
+    gameObject: {fileID: 8300000, guid: e1f8271ea0c4cdb49904f1651a9f00ae, type: 3}
+  - key: sfx_action_alert
+    gameObject: {fileID: 8300000, guid: e26e415104d8445e0a80bf326b9562a3, type: 3}
+  - key: sfx_eff_1
+    gameObject: {fileID: 8300000, guid: 403fb60f0d6634947bd8642845f6cc47, type: 3}
+  - key: sfx_eff_2
+    gameObject: {fileID: 8300000, guid: 2536e1a740d43444f99f95b24aa16a2b, type: 3}
+  - key: zhuoji
+    gameObject: {fileID: 8300000, guid: bad7b9bba20db35468ac3be812a95ac3, type: 3}
+  - key: zhadan
+    gameObject: {fileID: 8300000, guid: ffb5a3bd44eb7ca4c954ccc1d1a5b426, type: 3}
+  - key: shayu
+    gameObject: {fileID: 8300000, guid: 9ee7b2fc4bffa5346a41fc050bfef70d, type: 3}
+  - key: pijiu
+    gameObject: {fileID: 8300000, guid: 66ce13812a344a349a48b5e09bf4323c, type: 3}
+  - key: paizhao
+    gameObject: {fileID: 8300000, guid: a37c1f7e409a8a049b0f8fd279bdecb4, type: 3}
+  - key: sfx_jackpot_hit
+    gameObject: {fileID: 8300000, guid: 151dc2dc4c1634dcea5c2cf461691720, type: 3}
+  - key: activity_hong_bao_yu
+    gameObject: {fileID: 8300000, guid: 926d2afe7e6a443c6b993c34a1e3568f, type: 3}
+  - key: jidan
+    gameObject: {fileID: 8300000, guid: 7263026d26a553044922965f601fad8f, type: 3}
+  - key: hongchun
+    gameObject: {fileID: 8300000, guid: adec511ff3758ab4e88a3fdc4f6b9e70, type: 3}
+  - key: fanqie
+    gameObject: {fileID: 8300000, guid: a714ec0f991b98b42906bb20ef7d43a4, type: 3}
+  - key: dianzan
+    gameObject: {fileID: 8300000, guid: 02a8a78bd43acb64688ee8158312f3d1, type: 3}
+  - key: sfx_kingrun
+    gameObject: {fileID: 8300000, guid: 398425b81f390114b8df6653f2be0832, type: 3}
+  - key: sfx_kingfalldown
+    gameObject: {fileID: 8300000, guid: ac05ed9e302a68e4ca4186a6ee29aaa2, type: 3}
+  - key: sfx_daizimove
+    gameObject: {fileID: 8300000, guid: e39efea614efa5341bedb072daead37d, type: 3}
+  - key: sfx_daizijump
+    gameObject: {fileID: 8300000, guid: 9fe935f091c79414eb7aeff63d262ec7, type: 3}
+  - key: sfx_daizibomb
+    gameObject: {fileID: 8300000, guid: 0b763e2117be5f545b46a5d15a1960e6, type: 3}
+  - key: daoshui
+    gameObject: {fileID: 8300000, guid: f2c9699aee528ac41a7676a51c1b4ebe, type: 3}
+  - key: daodanboom
+    gameObject: {fileID: 8300000, guid: f201e6fa6112ef0439fe400e5c5fd190, type: 3}
+  - key: sfx_bigwin
+    gameObject: {fileID: 8300000, guid: c92026a30bc4b450782ab3a3ea8e8a00, type: 3}

@@ -1,0 +1,22 @@
+{
+    "group": "Bugly",
+    "libs": [
+    			"libsqlite3.tbd"
+    		],
+    "frameworks": [
+    			  ],
+    "headerpaths": [],
+    "files":   [
+    				"TIMSDK/IMMessageExt.framework",
+                	"TIMSDK/ImSDK.framework",
+                	"TIMSDK/QALSDK.framework",
+			"TIMSDK/TLSSDK.framework",
+                ],
+    "folders": [],    
+    "excludes": ["^.*.meta$", "^.*.mdown$", "^.*.pdf$"],
+    "compiler_flags": [],
+    "linker_flags": [
+    					"-ObjC"
+    				]
+
+}

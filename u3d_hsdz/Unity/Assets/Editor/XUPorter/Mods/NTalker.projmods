@@ -1,0 +1,18 @@
+{
+    "group": "NTalker",
+    "libs": [
+    			"libxml2.tbd"
+    		],
+    "frameworks": [
+	 				"MobileCoreServices.framework"
+    			  ],
+    "headerpaths": [],
+    "files":   [],
+    "folders": ["NTalker/"],    
+    "excludes": ["^.*.meta$", "^.*.mdown$", "^.*.pdf$"],
+    "compiler_flags": [],
+    "linker_flags": [
+    					"-ObjC"
+    				]
+
+}

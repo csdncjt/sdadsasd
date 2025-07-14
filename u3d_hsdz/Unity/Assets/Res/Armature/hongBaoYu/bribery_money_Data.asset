@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a64e5b0e436d4bed9780211ae245f7b, type: 3}
+  m_Name: bribery_money_Data
+  m_EditorClassIdentifier: 
+  dataName: caishen
+  dragonBonesJSON: {fileID: 4900000, guid: 3adf8ff2074254c52b4703f3ac94d7b0, type: 3}
+  textureAtlas:
+  - textureAtlasJSON: {fileID: 4900000, guid: 8cf0764817dcd47eeaffeae9985e2849, type: 3}
+    texture: {fileID: 2800000, guid: b4412b6340cfe497493cb721d6092caa, type: 3}
+    material: {fileID: 2100000, guid: 277618c7656d8437bab8613ca70adabc, type: 2}
+    uiMaterial: {fileID: 2100000, guid: 88e18904d3182490b9bcf1d947204abe, type: 2}
